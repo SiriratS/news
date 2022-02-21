@@ -4,6 +4,6 @@
 
 <script>
 export default {
-  name: 'AppNewsDetail'
-}
+  name: 'AppNewsDetail',
+};
 </script>
