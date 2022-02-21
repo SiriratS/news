@@ -4,18 +4,18 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import('../pages/AppHome.vue')
+    component: () => import('../pages/AppHome.vue'),
   },
   {
     path: '/news/:id',
     name: 'news-detail',
-    component: () => import('../pages/AppNewsDetail.vue')
-  }
-]
+    component: () => import('../pages/AppNewsDetail.vue'),
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
