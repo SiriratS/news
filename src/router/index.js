@@ -4,7 +4,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import('../pages/AppHome.vue'),
+    component: () => import('../pages/AppHome/AppHome.vue'),
   },
   {
     path: '/news/:id',
