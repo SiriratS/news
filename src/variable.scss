@@ -2,6 +2,7 @@ $color-white-01: white;
 $color-black-01: black;
 
 $font-size-small: 10px;
+$font-size-normal: 12px;
 
 .font {
 
@@ -9,6 +10,10 @@ $font-size-small: 10px;
 
         &-small {
             font-size: $font-size-small;
+        }
+
+        &-normal {
+            font-size: $font-size-normal;
         }
 
     }

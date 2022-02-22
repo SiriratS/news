@@ -2,10 +2,10 @@
     <div class="news-item">
       <router-link to="/news/0">
       <div class="news-item__overlay">
-    <img
-      src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/02/Tesla-Gigafactory-Berlin-Model-y.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1%22"
-      alt="Apple working with a South Korean firm to add autopilot tech to Apple Car"
-    >
+        <img
+          src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/02/Tesla-Gigafactory-Berlin-Model-y.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1%22"
+          alt="Apple working with a South Korean firm to add autopilot tech to Apple Car"
+        >
       </div>
       <div class="news-item__title">
         <span class="font-size-small">2022 Feb 22</span>
