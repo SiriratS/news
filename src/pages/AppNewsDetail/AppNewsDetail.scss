@@ -6,8 +6,13 @@
         opacity: 0.7;
     }
 
+    &__panel {
+        padding: 15px 0;
+    }
+
     &__image {
         position: relative;
+        margin-bottom: 15px;
 
         &__overlay {
             background-color: $color-black-01;

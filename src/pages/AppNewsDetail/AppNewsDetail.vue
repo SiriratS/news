@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12">
           <div class="news-detail__panel">
-            <button class="btn btn-link" @click="back()">← Go Back</button>
+            <button class="btn btn-outline-dark" @click="back()">← Go Back</button>
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@
             </div>
             <div class="news-detail__image__placeholder d-flex justify-content-between">
               <div class="d-flex flex-column">
-                <h6 class="font-size-normal">Holly Ellyatt</h6>
+                <h6>Holly Ellyatt</h6>
                 <span class="font-size-small">CNBC</span>
               </div>
               <div class="d-flex flex-column justify-content-end">
@@ -30,7 +30,7 @@
         </div>
         <div class="col-sm-12 col-lg-6">
           <div class="news-detail__section">
-            <h3>
+            <h3 class="font-size-large">
               Panasonic's 25-megapixel GH6 is the highest
               resolution Micro Four Thirds camera yet - Engadget
             </h3>
@@ -41,7 +41,7 @@
             </p>
             <div class="news-detail__more__detail">
               <a
-                class="btn btn-link"
+                class="btn btn-outline-dark"
                 target="_blank"
                 href="https://www.engadget.com/panasonics-25-megapixel-gh-6-is-the-highest-resolution-micro-four-thirds-camera-yet-010021527.html"
               >

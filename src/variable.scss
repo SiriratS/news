@@ -3,6 +3,7 @@ $color-black-01: black;
 
 $font-size-small: 10px;
 $font-size-normal: 12px;
+$font-size-large: 18px;
 
 .font {
 
@@ -12,8 +13,8 @@ $font-size-normal: 12px;
             font-size: $font-size-small;
         }
 
-        &-normal {
-            font-size: $font-size-normal;
+        &-large {
+            font-size: $font-size-large; 
         }
 
     }
